@@ -1,0 +1,243 @@
+/* Font and Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #111827;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    background-color: transparent;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3B82F6; /* Devkit. */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6B7280; /* muted gray */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #3B82F6; /* hover effect */
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .hero-content {
+    max-width: 520px;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 20px;
+    color: #111827; /* dark gray/black */
+  }
+  
+  .blue-text {
+    color: #3B82F6; /* Devkit. inside heading */
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    color: #6B7280; /* Paragraph muted */
+    margin-bottom: 30px;
+  }
+  
+  /* Buttons */
+  .buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  /* Primary Button */
+  .btn-primary {
+    background-color: #ffffff;
+    color: #3B82F6;
+    border: 2px solid #3B82F6;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3B82F6;
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(59, 130, 246, 0.3);
+  }
+  
+  /* Secondary Button */
+  .btn-secondary {
+    background-color: #e5e7eb; /* subtle gray bg */
+    color: #111827;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #d1d5db;
+    box-shadow: 0 4px 10px rgba(107, 114, 128, 0.2);
+  }
+  
+  /* Hero Image */
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+  }
+  
+  /* CTA Card */
+.cta-container {
+  background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
+  background: linear-gradient(to bottom, #ffffff 50%, #0f1624 50%);
+  padding: 80px 0 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cta-card {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #f2edfb;
+  background-image: url(https://www.transparenttextures.com/patterns/cartographer.png);
+  padding: 40px 60px;
+  border-radius: 20px;
+
+  /* Flexbox to align h2 and button in one row */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.cta-card h2 {
+  font-size: 30px;
+  margin: 0;
+  color: #6d5fce;
+  line-height: 1.4;
+  max-width: 70%;
+}
+
+.cta-button {
+  background-color: #6d5fce;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+  /* Footer */
+  .footer {
+    background-color: #0f1624;
+    color: #b3b8cd;
+    padding: 60px 20px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .footer-column {
+    flex: 1 1 200px;
+  }
+  
+  .footer-column h4 {
+    font-size: 14px;
+    color: #b3b8cd;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .footer-logo {
+    max-height: 40px;
+    width: auto;
+    height: auto;
+  }
+  
+  
+  /* Subscription Field */
+  .subscribe {
+    display: flex;
+    margin-top: 12px;
+  }
+  
+  .subscribe input {
+    padding: 10px;
+    flex: 1;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    font-size: 14px;
+  }
+  
+  .subscribe button {
+    padding: 10px 16px;
+    background-color: #6d5fce;
+    color: white;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
